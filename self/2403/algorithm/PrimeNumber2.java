@@ -1,6 +1,5 @@
 package com.ruby.java.agrtCh02;
 
-
 class PrimeNumber2 {
 	public static void main(String[] args) {
 		int counter = 0; // 나눗셈의 횟수 0으로 초기화

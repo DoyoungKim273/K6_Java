@@ -2,7 +2,6 @@ package com.ruby.java.agrtCh02;
 
 // 1,000 이하의 소수를 나열
 
-
 class PrimeNumber1 {
 	public static void main(String[] args) {
 		int counter = 0; // 나눗셈의 횟수
