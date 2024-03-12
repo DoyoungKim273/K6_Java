@@ -9,18 +9,32 @@ class PhyscData implements Comparable<PhyscData> {
 	int height;
 	double vision;
 
+	public PhyscData(String name, int height, double vision) {
+		this.name = name; this.height = height; this.vision = vision;
+	}
+
 	@Override
 	public String toString() {
-
+		return name  + " " + height + " " + vision;
 	}
 
 	@Override
 	public int compareTo(PhyscData p) {
-
+		if(this.height == p.height) {
+			return 0;
+		} else if (this.height > p.height) {
+			return 1;
+		} else {
+			return -1;
+		}
 	}
 
-	public int equals(PhyscData p) {
-
+	public boolean equals(PhyscData p) {
+		if(this.height == p.height) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 }
 
@@ -46,7 +60,8 @@ public class Test_실습2_14객체배열정렬 {
 	}
 
 	static void showData(PhyscData[] arr) {
-		System.out.println(arr);
+		for(PhyscData data : arr)
+		System.out.println(data.toString());
 	}
 
 }
