@@ -65,6 +65,7 @@ class Dog{
 		this.age = age;
 	}
 	
+//	object 클래스의 toString() 메서드를 오버라이딩 한 것
 	public String toString() { // 배열이 문자열과 숫자로 구성되어 있으니 문자열로 반환해주는 메소드 써야함(아니면 주소값을 반환함)
 		return breed + " " + age;
 	}
