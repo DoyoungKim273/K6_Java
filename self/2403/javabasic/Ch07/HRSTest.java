@@ -1,5 +1,5 @@
 package com.ruby.java.jvbasicCh07;
-// 추상클래스 연습 및 오버라이드 연습 
+// 추상클래스 연습 및 오버라이드 연습
 
 abstract class Employee_1{
 	String name;
