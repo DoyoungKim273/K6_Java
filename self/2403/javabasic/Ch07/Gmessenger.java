@@ -1,6 +1,6 @@
 package com.ruby.java.jvbasicCh07;
 
-public class Gmessenger implements Messenger {
+public class Gmessenger implements Messenger, WorkFile {
 
 	public String getMessage() {
 		return "Galaxy";
@@ -13,5 +13,15 @@ public class Gmessenger implements Messenger {
 	public void changeKeyboard() {
 		System.out.println("change keyboard");
 	}
+	
+	public void fileUpload() {
+		System.out.println("upload");
+	}
+	
+	public void fileDownload() {
+		System.out.println("download");
+	}
+	
+	
 	
 }
