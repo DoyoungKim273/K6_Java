@@ -1,6 +1,6 @@
 package com.ruby.java.jvbasicCh09;
 
-public class ApiPrac06 {
+public class ApiString06 {
 	public static void main(String[] args) {
 		String s1 = String.valueOf(false);
 		String s2 = String.valueOf('A');

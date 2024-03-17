@@ -1,6 +1,6 @@
 package com.ruby.java.jvbasicCh09;
 
-public class ApiPrac01 {
+public class ApiString01 {
 	public static void main(String[] args) {
 		Object obj1 = new Object();
 		Object obj2 = new Object();

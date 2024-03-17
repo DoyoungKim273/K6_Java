@@ -1,6 +1,6 @@
 package com.ruby.java.jvbasicCh09;
 
-public class ApiPrac04 {
+public class ApiString04 {
 	public static void main(String[] args) {
 		String address[] = {"aaa bbb ccc", "ddd eee fff","ddd hhh iii", "jjj kkk iii", "mmm nnn iii", "ppp qqq ooo"};
 		

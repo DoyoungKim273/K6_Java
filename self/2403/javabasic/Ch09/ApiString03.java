@@ -1,6 +1,6 @@
 package com.ruby.java.jvbasicCh09;
 
-public class ApiPrac03 {
+public class ApiString03 {
 	public static void main(String[] args) {
 		
 		String s = "Have a good day!";

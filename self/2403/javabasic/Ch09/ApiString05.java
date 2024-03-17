@@ -1,6 +1,6 @@
 package com.ruby.java.jvbasicCh09;
 
-public class ApiPrac05 {
+public class ApiString05 {
 
 	public static void main(String[] args) {
 		String s = "This is me";
