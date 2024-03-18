@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 import com.ruby.java.agrt.Ch04.IntStack.EmptyIntStackException;
 
-class Point2 { // test
+class Point2 { 
 	private int ix;
 	private int iy;
 
