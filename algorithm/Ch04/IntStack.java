@@ -1,7 +1,6 @@
 package com.ruby.java.agrt.Ch04;
 
 // int형 고정 길이 스택
-
 public class IntStack {
 	private int[] stk; // 스택용 배열
 	private int capacity; // 스택 용량
