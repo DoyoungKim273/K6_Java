@@ -1,1 +1,1 @@
-# K6_Java - Java basic and Algorithm
+K6_Java - Java basic and Algorithm
