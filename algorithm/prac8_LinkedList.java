@@ -22,11 +22,30 @@ class LinkedList1 {
 		first = null; // 생성자, 비어있는 연결 리스트 생성
 	}
 
-	public boolean Delete(int element) // 전달된 element 값이 존재 하면 삭제하고 true로 리턴
+	public boolean Delete(int data) // 전달된 element 값이 존재 하면 삭제하고 true로 리턴
 	{
-		Node1 q, current = first;
-		q = current;
-		return true;
+		Node1 p = first;
+		Node1 q = null;
+		
+		if (first == null) {
+			System.out.println("데이터가 없습니다.");
+			return false;
+		}
+
+		if(p.data == data) {
+			first = p.link;
+			return true;
+		}
+		
+		while (p != null) {
+			if(data == p.data) {
+				q.link = p.link;
+				return true;
+			}
+			q = p;
+			p = p.link;
+		}
+		return false;
 
 	}
 
